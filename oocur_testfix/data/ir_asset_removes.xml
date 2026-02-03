@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="asset_remove_muk_theme_navbar_when_web_responsive" model="ir.asset">
+        <field name="name">oocur_testfix: Remove muk_web_theme navbar when web_responsive is installed</field>
+        <field name="bundle">web.assets_backend</field>
+        <field name="directive">remove</field>
+        <field name="path">muk_web_theme/static/src/webclient/navbar/navbar.xml</field>
+        <field name="sequence">16</field>
+    </record>
+</odoo>
